@@ -31,19 +31,18 @@ CREATE TABLE [dbo].[Product](
 GO
 ```
 ##### 2. Running the API
-Got to the folder and change the placeholder:{MSSQL SERVER NAME} in appsettings.json file as below to point to the correct DB
+Go to the folder and change the placeholder:{MSSQL SERVER NAME} in appsettings.json file as below to point to the correct DB
+```
+cd InventoryControl\Inventory_API\InventoryControl.API
+```
 ```json
 { 
   "ConnectionStrings": {
   "DefaultConnection": "{MSSQL SERVER NAME};Database=InventoryDB;Trusted_Connection=True;MultipleActiveResultSets=true"
 }
 ```
+Execute below command from the same folder
 ```
-cd InventoryControl\Inventory_API\InventoryControl.API
-```
-Execute below command 
-```
-cd InventoryControl\Inventory_API\InventoryControl.API
 dotnet run
 ```
 Inverntory Product API would start and be listening on http://localhost:5030
