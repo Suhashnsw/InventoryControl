@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.API\\InventoryAPI.csproj": {}
+  },
+  "projects": {
+    "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.API\\InventoryAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.API\\InventoryAPI.csproj",
+        "projectName": "InventoryAPI",
+        "projectPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.API\\InventoryAPI.csproj",
+        "packagesPath": "C:\\Users\\nelum\\.nuget\\packages\\",
+        "outputPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nelum\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\InventoryControl.Core.csproj": {
+                "projectPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\InventoryControl.Core.csproj"
+              },
+              "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj": {
+                "projectPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\InventoryControl.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\InventoryControl.Core.csproj",
+        "projectName": "InventoryControl.Core",
+        "projectPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\InventoryControl.Core.csproj",
+        "packagesPath": "C:\\Users\\nelum\\.nuget\\packages\\",
+        "outputPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nelum\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj",
+        "projectName": "InventoryControl.Infrastructure",
+        "projectPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Infrastructure\\InventoryControl.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nelum\\.nuget\\packages\\",
+        "outputPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nelum\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\InventoryControl.Core.csproj": {
+                "projectPath": "P:\\Nelum\\Projects\\InventoryControl_API\\InventoryControl.Core\\InventoryControl.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Ardalis.EFCore.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

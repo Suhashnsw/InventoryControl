@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+       @if (User.Identity.IsAuthenticated)
+            {
+                <p class="navbar-text">Hello, @User.Identity.Name</p>
+    <h1 class="display-4"> @Html.ActionLink("Welcome to New The Inventory System","GetAllProducts", "Products", null, null)</h1>
+            }
+            else
+            {
+                <a asp-controller="Account" asp-action="SignIn">Sign In</a>
+            }
+
+            
+  
+</div>

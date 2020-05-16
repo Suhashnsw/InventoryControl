@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "P:\\Nelum\\Projects\\InventoryControl\\src\\InventoryControl.Web\\InventoryControl.Web.csproj": {}
+  },
+  "projects": {
+    "P:\\Nelum\\Projects\\InventoryControl\\src\\InventoryControl.Web\\InventoryControl.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Nelum\\Projects\\InventoryControl\\src\\InventoryControl.Web\\InventoryControl.Web.csproj",
+        "projectName": "InventoryControl.Web",
+        "projectPath": "P:\\Nelum\\Projects\\InventoryControl\\src\\InventoryControl.Web\\InventoryControl.Web.csproj",
+        "packagesPath": "C:\\Users\\nelum\\.nuget\\packages\\",
+        "outputPath": "P:\\Nelum\\Projects\\InventoryControl\\src\\InventoryControl.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nelum\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Okta.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@model InventoryControl.Web.Models.Product
+  
+@{  
+    ViewBag.Title = "Detail";  
+}  
+  
+<h2>Detail</h2>  
+  
+<div>  
+    <h4>Product</h4>  
+    <hr />  
+    <dl class="dl-horizontal">  
+        <dt>  
+            @Html.DisplayNameFor(model => model.Name)  
+        </dt>  
+  
+        <dd>  
+            @Html.DisplayFor(model => model.Name)  
+        </dd>  
+  
+        <dt>  
+            @Html.DisplayNameFor(model => model.AvailableQuantity)  
+        </dt>  
+  
+        <dd>  
+            @Html.DisplayFor(model => model.AvailableQuantity)  
+        </dd>  
+  
+        <dt>  
+            @Html.DisplayNameFor(model => model.UnitPrice)  
+        </dt>  
+  
+        <dd>  
+            @Html.DisplayFor(model => model.UnitPrice)  
+        </dd>  
+  
+    </dl>  
+</div>  
+<p>  
+    @Html.ActionLink("Edit", "EditProduct", new { id = Model.Id }) |  
+    @Html.ActionLink("Back to List", "GetAllProducts")  
+</p>  
