@@ -1,5 +1,8 @@
 # InventoryControl
 
+Prerequisites: https://dotnet.microsoft.com/download/dotnet-core/3.1
+DB: Ms:SQL
+
 #### Running the Inventory System
 In order to run the application, please follow below steps
 ##### 1. Setting Up the Database
@@ -52,6 +55,8 @@ Inverntory Product API would start and be listening on http://localhost:5030
 cd InventoryControl\Inventory_Web\src\InventoryControl.Web
 dotnet run
 ```
+Application would start on :  https://localhost:5001
+
 Also note if any of the launched URLs are changed, relevant settings should be changed accordingly. Default API URL setting of Web application works correctly
 
 ##### OKTA Set up
