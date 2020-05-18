@@ -61,7 +61,7 @@ Application would start on :  https://localhost:5001
 Also note if any of the launched URLs are changed, relevant settings should be changed accordingly. Default API URL setting of Web application works correctly
 
 ##### OKTA Set up
-As the IDP Okta dev server (https://dev-381291.okta.com/) has been setup and relevant settings are already updated, so no change required. To login to the application please use below credentials
+As the IDP, Okta dev server (https://dev-381291.okta.com/) has been setup and relevant settings are already updated, so no change required. To login to the application please use below credentials
 
 Username:  suhashiniweerakoon@gmail.com
 
