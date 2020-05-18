@@ -1,6 +1,7 @@
 # InventoryControl
 
 Prerequisites: https://dotnet.microsoft.com/download/dotnet-core/3.1
+
 DB: Ms:SQL
 
 #### Running the Inventory System
@@ -63,6 +64,7 @@ Also note if any of the launched URLs are changed, relevant settings should be c
 As the IDP Okta dev server (https://dev-381291.okta.com/) has been setup and relevant settings are already updated, so no change required. To login to the application please use below credentials
 
 Username:  suhashiniweerakoon@gmail.com
+
 Temporary password:  Welcome@99x
 
 
