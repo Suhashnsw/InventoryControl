@@ -2,7 +2,7 @@
 
 Prerequisites: https://dotnet.microsoft.com/download/dotnet-core/3.1
 
-DB: Ms:SQL
+DB: MSSQL
 
 #### Running the Inventory System
 In order to run the application, please follow below steps
